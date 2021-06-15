@@ -1,0 +1,92 @@
+body, h1 , h2 , h3 , h4 , h5 , h6 {
+  font-family: "Lato", sans-serif;
+}
+
+html , body {
+font-size: 15px;
+line-height: 1.5;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  -webkit-text-size-adjust: : 100%;
+}
+
+.top {
+top : 0;
+}
+
+.top .bar{
+position: fixed;
+width: 100%
+z-index: 1;
+}
+
+div {
+display: block;
+}
+
+.bar, h1, button {
+font-family: "Montserrat", sans-serif;
+}
+.bar, .container {
+    color: #fff!important;
+    background-color: #f44336!important;
+}
+.bar{
+  width: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.container {
+    padding: 128px 16px;
+    text-align: center!important;
+}
+h1 {
+  display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.start {
+  margin: 16px!important;
+    margin-top: 16px !important;
+    margin-right: 16px !important;
+    margin-bottom: 16px !important;
+    margin-left: 16px !important;
+    font-size: 64px!important;
+}
+ p , .tamplate {
+   display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 24px!important;
+    }
+
+  .buttom{
+    color: #fff!important;
+    background-color: #000!important;
+  }
+.row {
+  padding-top: 64px!important;
+    padding-bottom: 64px!important;
+        padding: 0.01em 16px;
+    padding-top: 0.01em;
+    padding-right: 16px;
+    padding-bottom: 0.01em;
+    padding-left: 16px;
+    width: 66.66666%;
+}
+
+h1 {
+  font-size: 36px;
+}
